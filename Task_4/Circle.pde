@@ -1,22 +1,30 @@
 // 4.c
 class Circle{
   
-  float xposition;
-  float yposition;
+  float xPosition;
+  float yPosition;
   
   // 4.d
-  Circle(float xposition, float yposition){
+  Circle(float xPosition, float yPosition){
   
-    this.xposition = xposition;
-    this.yposition = yposition;
+    this.xPosition = xPosition;
+    this.yPosition = yPosition;
   
   }
   
   // 4.f
   void display(){
   
-    ellipse(xposition, yposition, 100, 200);
+    ellipse(xPosition, yPosition, 100, 200);
     
   }
   
+  // 4.k
+  void move(float moveX, float moveY){
+    
+    xPosition += moveX;
+    yPosition += moveY;
+    this.display();
+  
+  }
 }
