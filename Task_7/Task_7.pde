@@ -31,17 +31,19 @@ void setup(){
 // 7.b
 
 void printWords(ArrayList<String> listOfStrings){
-
-    println(listOfStrings);
+    for(String s : listOfStrings){
     
+      println(s);
+      
+    }  
 }
 
 // 7.c
 int sumOfNumbers(ArrayList<Integer> listOfNumbers){
   int sum = 0;
-  for(int i = 0; i < listOfNumbers.size(); i++){
+  for(int n : listOfNumbers){
     
-    sum += listOfNumbers.get(i);
+    sum += n;
     
   }
   return sum;
@@ -51,9 +53,9 @@ int sumOfNumbers(ArrayList<Integer> listOfNumbers){
 float averageOfNumbers(ArrayList<Integer> listOfNumbers2){
   float sum = 0;
   
-  for(int i = 0; i < listOfNumbers2.size(); i++){
+  for(int n : listOfNumbers2){
   
-    sum += listOfNumbers2.get(i);
+    sum += n;
     
   }
   
