@@ -1,14 +1,13 @@
 boolean jobsDone = true;
 
-void setup()
-{
-    if (isJobDone())
-    {
-        println("Job's done!") 
-    }
+void setup() {
+  if (isJobDone())
+  {
+    println("Job's done!");
+  }
 }
 
 boolean isJobDone()
 {
-    return jobsDone;    
+  return jobsDone;
 }

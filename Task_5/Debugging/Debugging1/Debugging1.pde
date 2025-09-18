@@ -1,4 +1,5 @@
 void setup() 
 {
-    MyClass myclass1 = new MyClass();    
+    MyClass myclass1 = new MyClass();
+    
 }
